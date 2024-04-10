@@ -32,7 +32,7 @@ avatar: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/staging/
 description: >- # this means to ignore newlines until "baseurl:"
   Software engineering, software testing
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/openwiretech/" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://github.com/openwiretech/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  openwiretech
 
