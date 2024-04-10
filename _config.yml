@@ -31,7 +31,7 @@ email: mc2podcasting@outlook.com
 #avatar: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/staging/podcast_uploaded_nologo/39982411/39982411-1702345367744-c63a4681e11ae.jpg"
 description: >- # this means to ignore newlines until "baseurl:"
   Software engineering, software testing
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  openwiretech
 
