@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Rant about...Memmory Leaks"
+title:  "A Rant about...Memory Leaks"
 date:   2024-01-19 12:00:00 -500
 categories: [memory, programming]
 tags: [rant, code, memory] # coma separated lower case
