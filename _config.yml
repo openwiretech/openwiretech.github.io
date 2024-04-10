@@ -27,8 +27,8 @@ lang: en
 timezone: America/New_York
 
 title: OpenWire
-email: mc2podcasting@outlook.com
-#avatar: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/staging/podcast_uploaded_nologo/39982411/39982411-1702345367744-c63a4681e11ae.jpg"
+email: 
+avatar: "{{ site.baseurl }}/assets/images/logo.jpg"
 description: >- # this means to ignore newlines until "baseurl:"
   Software engineering, software testing
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -37,6 +37,7 @@ github_username:  openwiretech
 
 # Build settings
 theme: minima
+#theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
@@ -59,3 +60,22 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - _pages
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+

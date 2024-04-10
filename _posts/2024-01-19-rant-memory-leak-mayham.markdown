@@ -4,10 +4,12 @@ title:  "A Rant about...Memory Leaks"
 date:   2024-01-19 12:00:00 -500
 categories: [memory, programming]
 tags: [rant, code, memory] # coma separated lower case
+permalink: /rant_post
 ---
 # Memory Leak Mayham
 
-![Memory leak havoc](/assets/memory_leak.jpg)
+<img src="/assets/images/memory_leak.jpg" alt="Memory leak havoc" width="300">
+
 
 Imagine flying in a plane to your favorite vacation spot, when someone looks at the window and says “HEY, look a few loose bolts” – it's not a small oversight, it's a one-way ticket to disaster! 
 

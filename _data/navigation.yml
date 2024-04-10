@@ -1,4 +1,9 @@
-- title: Home
-  url: /
-- title: About
-  url: /about
+main:
+  - title: The Rants
+    url: /rants
+  - title: The Bugs
+    url: /bugs
+  - title: The Articles
+    url: /article
+  - title: About
+    url: /about
