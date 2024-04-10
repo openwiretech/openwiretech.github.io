@@ -7,11 +7,11 @@ permalink: /disclaimer/
 
 <em>General Information Disclaimer</em>
 
-The information provided by OpenWire on our website and mobile application is for general informational purposes only. All information is provided in good faith, and we make no representation or warranty, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+The information provided by on our website and mobile application is for general informational purposes only. All information is provided in good faith, and we make no representation or warranty, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
 <em>External Links Disclaimer</em>
 
-Our website and mobile application may contain links to external websites that are not provided or maintained by or in any way affiliated with OpenWire. Please note that OpenWire does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.
+Our website and mobile application may contain links to external websites that are not provided or maintained by or in any way affiliated with our website. Please note that we do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.
 
 <em>Professional Disclaimer</em>
 
