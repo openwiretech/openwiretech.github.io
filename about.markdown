@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+OpenWire  for all things tech! We delve into the latest tech trends, innovations, and news in a clear, accessible way. Whether you're a tech enthusiast or a newbie, join us for expert interviews and discussions on AI, the internet's future, Software Engineering, and gadget evolution. OpenWire is more than a tech podcast; it's a journey into the stories and ideas shaping our digital world. Tune in and stay updated with the cutting-edge of technology!

@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: OpenWire
+avatar: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/staging/podcast_uploaded_nologo/39982411/39982411-1702345367744-c63a4681e11ae.jpg"
 email: mc2podcasting@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -28,6 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://github.com/openwiretech/openwire.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  openwiretech
+
 
 # Build settings
 theme: minima
