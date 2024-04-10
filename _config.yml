@@ -18,9 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: en
+
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: America/New_York
+
 title: OpenWire
 avatar: "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/staging/podcast_uploaded_nologo/39982411/39982411-1702345367744-c63a4681e11ae.jpg"
-email: mc2podcasting@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -30,6 +37,19 @@ url: "https://github.com/openwiretech/openwire.github.io" # the base hostname & 
 #twitter_username: jekyllrb
 github_username:  openwiretech
 
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: OpenWire
+  email: mc2podcasting@outlook.com
+  links:
+    # The first element serves as the copyright owner's link
+    #- https://twitter.com/username # change to your twitter homepage
+    - https://github.com/openwiretech # change to your github homepage
+    - https://open.spotify.com/show/3mGeMDCS07byp1yhUrYg0v?si=ef9a43b91f5a42da
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
 
 # Build settings
 theme: minima
