@@ -7,7 +7,7 @@ permalink: /disclaimer/
 
 <em>General Information Disclaimer</em>
 
-The information provided by on our website and mobile application is for general informational purposes only. All information is provided in good faith, and we make no representation or warranty, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+The information provided by on our website and mobile application is for general informational and educational purposes only. All information is provided in good faith, and we make no representation or warranty, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
 <em>External Links Disclaimer</em>
 
@@ -15,4 +15,4 @@ Our website and mobile application may contain links to external websites that a
 
 <em>Professional Disclaimer</em>
 
-The content on this blog is provided for informational purposes only and does not constitute professional advice. While every effort is made to ensure accuracy, the author(s) are not responsible for any issues that arise from the use or application of this information. The website cannot and does not contain specific information technology advice. The information technology information is for general informational and educational purposes only and is not a substitute for professional advice. Accordingly, before taking any action based upon such information, we encourage you to consult with the appropriate professionals. The use or reliance of any information contained on this site or our mobile application is solely at your own risk.
+The content on this website is provided for informational purposes only and does not constitute professional advice. While every effort is made to ensure accuracy, the author(s) are not responsible for any issues that arise from the use or application of this information. The information is for general informational and educational purposes only and is not a substitute for professional advice. Accordingly, before taking any action based upon such information, we encourage you to consult with the appropriate professionals. The use or reliance of any information contained on this site or our mobile application is solely at your own risk.
