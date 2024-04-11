@@ -41,4 +41,4 @@ Let's not underestimate the digital demon that is a memory leak. It could turn y
 
 And believe me, nobody wants to face a tech apocalypse armed only with CTRL+ALT+DEL.
 
-Copywrite © 2024 Mario Colina 
+Copyright © 2024 Mario Colina 
