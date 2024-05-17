@@ -249,7 +249,7 @@ A more accurate analysis and test idea generation would be by feeding ChatGPT th
 
 Let’s identify the differences between the SD and OPL for failure modes that ChatGPT provided:
 
-Differences Between Failure Modes from the Diagram and the OPL:
+**Differences Between Failure Modes from the Diagram and the OPL**:
 
 **Operator Group**
 Diagram: Focuses on human error, absenteeism, fatigue, and communication failures.
