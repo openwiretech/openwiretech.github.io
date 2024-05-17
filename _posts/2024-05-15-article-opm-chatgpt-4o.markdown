@@ -23,7 +23,7 @@ As systems engineering evolves, so does the demand for improved modeling in Mode
 
 OpenAI [[2]](#ref2) just released ChatGPT-4o which extends its functionality to accept audio, image, and video. It enhances the ability to work with graphical data and could significantly improve system analysis. 
 
-I decided to have a go at it by testing its image input capabilities by analyzing the Systems Diagram (SD) I made using Robert Sabourin's [^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just In Time" [[3]](#ref3). I modeled the system using OPM to create my Object Process Diagram (OPD). 
+I decided to have a go at it by testing its image analyzing capabilities for the Systems Diagram (SD) I made using Robert Sabourin's [^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just In Time" [[3]](#ref3). I modeled the system using OPM to create my Object Process Diagram (OPD). 
 
 This report explores how ChatGPT-4o treats and identifies things within OPM diagrams and demonstrates AI’s potential to empower systems engineering. This is my first initial reaction to ChatGPT-4o abilities.
 
