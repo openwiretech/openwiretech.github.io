@@ -21,9 +21,9 @@ Copywrite © 2024 Mario Colina
 
 As systems engineering evolves, so does the demand for improved modeling. One such method is Object Process Methodology (OPM) [1](#ref1). OPM was created by Professor Dov Dori[^1]. It’s an elegant and powerful modeling methodology that combines both visual and textual information in one diagram, and as testers modelling our system under test is important. The intricacies of OPM are beyond the scope of this report.
 
-OpenAI just released ChatGPT-4o which extends it functionality to accept audio, image, and video. It enhances the ability to work with graphical data and could significantly improve system analysis. 
+OpenAI [2](#ref2) just released ChatGPT-4o which extends it functionality to accept audio, image, and video. It enhances the ability to work with graphical data and could significantly improve system analysis. 
 
-I decided to have a go at it by testing its image input capabilities by analyzing the Systems Diagram (SD) I made using Robert Sabourin's[^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just In Time"[2](#ref2). I modeled the system using OPM to create my Object Process Diagram (OPD). 
+I decided to have a go at it by testing its image input capabilities by analyzing the Systems Diagram (SD) I made using Robert Sabourin's [^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just In Time" [3](#ref3). I modeled the system using OPM to create my Object Process Diagram (OPD). 
 
 This report explores how ChatGPT-4o treats and identifies things within OPM diagrams and demonstrates AI’s potential to empower systems engineering. This is my first initial reaction to ChatGPT-4o abilities.
 
@@ -32,7 +32,7 @@ This report explores how ChatGPT-4o treats and identifies things within OPM diag
 
 # System overview
 
-Here is the SD of the Wrap-O-Matic chocolate wrapping system generated using OPCAT modeling CASE tool [3](#ref2). This is a high-level view of the overall system. The green boxes are Objects, and the blue ellipses are Process. 
+Here is the SD of the Wrap-O-Matic chocolate wrapping system generated using OPCAT modeling CASE tool [4](#ref4). This is a high-level view of the overall system. The green boxes are Objects, and the blue ellipses are Process. 
 
 <a href="/assets/images/issue_1/2.png" target="_blank">
     <img src="/assets/images/issue_1/2.png" alt="SD" width="auto">
@@ -219,9 +219,11 @@ A shortfall was its ability to identify some of the basic colors of the diagram.
 
 1. <a id="ref1"></a>Dori, Dov. 2022. "Modeling Knowledge with Object-Process Methodology." PDF file. Accessed May 10, 2023. [https://dovdori.technion.ac.il/wp-content/uploads/2022/05/Modeling-Knowledge-with-Object-Process-Methodology.pdf](https://dovdori.technion.ac.il/wp-content/uploads/2022/05/Modeling-Knowledge-with-Object-Process-Methodology.pdf)
 
-2. <a id="ref2"></a>Sabourin, Robert. 2023. *Charting the Course: Coming Up with Great Ideas*. Notion Press.
+2. <a id="ref3"></a>OpenAI. 2024. "Homepage." Accessed May 14, 2024. [https://openai.com/index/hello-gpt-4o/](https://openai.com/index/hello-gpt-4o/)
 
-3. <a id="ref3"></a>OPCLOUD. 2023. "Homepage." Accessed May 14, 2024. [https://esml.technion.ac.il/opm/opcat-installation/](https://esml.technion.ac.il/opm/opcat-installation/)
+3. <a id="ref2"></a>Sabourin, Robert. 2023. *Charting the Course: Coming Up with Great Ideas*. Notion Press.
+
+4. <a id="ref4"></a>OPCLOUD. 2023. "Homepage." Accessed May 14, 2024. [https://esml.technion.ac.il/opm/opcat-installation/](https://esml.technion.ac.il/opm/opcat-installation/)
 
 # Footnotes
 
