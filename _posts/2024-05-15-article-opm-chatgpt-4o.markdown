@@ -233,7 +233,7 @@ A shortfall was its ability to identify some of the basic colors of the diagram.
 
 2. <a id="ref3"></a>OpenAI. 2024. "Homepage." Accessed May 14, 2024. [https://openai.com/index/hello-gpt-4o/](https://openai.com/index/hello-gpt-4o/)
 
-3. <a id="ref2"></a>Sabourin, Robert. 2023. *Charting the Course: Coming Up with Great Ideas*. Notion Press.
+3. <a id="ref2"></a>Sabourin, Robert. 2023. *Charting the Course: Coming Up with Great Ideas;Just In Time*. Notion Press.
 
 4. <a id="ref4"></a>OPCAT. 2023. "Homepage." Accessed May 14, 2024. [https://esml.technion.ac.il/opm/opcat-installation/](https://esml.technion.ac.il/opm/opcat-installation/)
 
