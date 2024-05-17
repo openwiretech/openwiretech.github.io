@@ -7,7 +7,7 @@ tags: [opm, chatgpt, llm] # coma separated lower case
 permalink: /article_post
 ---
 
-<img src="/assets/images/issue_1/0.png" alt="SD" width="300">
+<img src="/assets/images/issue_1/main.png" alt="SD" width="300">
 
 ISSUE NO. 1
 
