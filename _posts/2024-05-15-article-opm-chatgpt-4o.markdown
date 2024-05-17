@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Assessing ChatGPT-4o's Effectiveness in System Diagram Analysis Using Object Process Methodology
-subtitle: "You're going to love this."
 date:   2024-05-15 16:00:00 -500
 categories: [ai, systems, llm, image]
 tags: [opm, chatgpt, llm] # coma separated lower case
