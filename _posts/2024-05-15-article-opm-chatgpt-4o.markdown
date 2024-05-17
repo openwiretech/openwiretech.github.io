@@ -7,7 +7,7 @@ tags: [opm, chatgpt, llm] # coma separated lower case
 permalink: /article_post
 ---
 
-<img src="/assets/images/issue_1/main.png" alt="SD" width="300">
+<img src="/assets/images/issue_1/superimposed.png" alt="SD" width="300">
 
 ISSUE NO. 1
 
@@ -19,7 +19,7 @@ Copywrite © 2024 Mario Colina
 # Background
 
 
-As systems engineering evolves, so does the demand for improved modeling. One such method is Object Process Methodology (OPM) [[1]](#ref1). OPM was created by Professor Dov Dori[^1]. It’s an elegant and powerful modeling methodology that combines both visual and textual information in one diagram, and as testers modelling our system under test is important. The intricacies of OPM are beyond the scope of this report.
+As systems engineering evolves, so does the demand for improved modeling in Model-Based Systems Engineering. One such method is Object Process Methodology (OPM) [[1]](#ref1). OPM was created by Professor Dov Dori[^1]. It’s an elegant and powerful modeling methodology that combines both visual and textual information in one diagram, and as testers modelling our system under test is important. The intricacies of OPM are beyond the scope of this report.
 
 OpenAI [[2]](#ref2) just released ChatGPT-4o which extends its functionality to accept audio, image, and video. It enhances the ability to work with graphical data and could significantly improve system analysis. 
 
@@ -219,12 +219,68 @@ Let’s prompt it to identify any potential test ideas
 
 It generated some generic high-level tests.
 
+**Using the Systems diagram to identify failure modes**
+
+Failure mode tests are a good strategy, lets find out what it can come up with 
+ 
+<img src="/assets/images/issue_1/26.png" alt="SD" width="auto">
+
+<img src="/assets/images/issue_1/27.png" alt="SD" width="auto">
+
+<img src="/assets/images/issue_1/28.png" alt="SD" width="auto">
+
+<img src="/assets/images/issue_1/29.png" alt="SD" width="auto">
+
+<img src="/assets/images/issue_1/30.png" alt="SD" width="auto">
+
+
+# Improvements
+
+A more accurate analysis and test idea generation would be by feeding ChatGPT the OPL sentences.  Since this textual and provides a description of the SD, ChatGPT should be able to provide a better analysis and improved test ideas. Although this report focuses on Image identification capabilities, lets try feeding the OPL for failure mode:
+ 
+<img src="/assets/images/issue_1/31.png" alt="SD" width="auto">
+
+<img src="/assets/images/issue_1/32.png" alt="SD" width="auto">
+
+<img src="/assets/images/issue_1/33.png" alt="SD" width="auto">
+
+<img src="/assets/images/issue_1/34.png" alt="SD" width="auto">
+
+
+Let’s identify the differences between the SD and OPL for failure modes that ChatGPT provided:
+
+Differences Between Failure Modes from the Diagram and the OPL:
+
+**Operator Group**
+Diagram: Focuses on human error, absenteeism, fatigue, and communication failures.
+OPL: Emphasizes training effectiveness and workload management.
+
+**Wrapping System**
+Diagram: Highlights mechanical failures, software glitches, and maintenance lapses.
+OPL: Focuses on operational reliability and the efficacy of maintenance schedules.
+
+**Electrical Energy**
+Diagram: Considers power outages, voltage fluctuations, and energy supply interruptions.
+OPL: Emphasizes power stability and energy efficiency.
+
+**Automatic Chocolate Wrapping & Boxing**
+Diagram: Concerns include system overload, integration failures, and quality control failures.
+OPL: Focuses on system integration, throughput and capacity, and error handling and recovery.
+
+**Chocolate Box Set (only from OPL)**
+OPL: Adds specific tests for quality assurance and durability of the chocolate box set, which were not explicitly mentioned in the diagram-based analysis.
+
+The failure modes derived from the SD emphasize operational and technical issues, whereas from the OPL a broader perspective is provided, including aspects like training, workload management, and detailed testing scenarios for quality assurance and durability.
+This is a high level-view, and one could delve deeper into failure mode scenarios. This can provide an overview to stimulate other ideas or implement better prompting. 
+
+
+
 # Conclusion 
 This initial experiment evaluated ChatGPT-4o’s ability to analyze a Systems Diagram using Object Process Methodology (OPM). It correctly identified most objects and processes , however it overlooked the 'Human-centered Wrapping & Boxing' process as aa environmental process (dashed ellipse) and struggled to identify some structural links. 
 
 Despite these issues, it was capable of refining and correcting initial misinterpretations based on user feedback, and this is promising for an iterative learning process.
 
-A shortfall was its ability to identify some of the basic colors of the diagram.  This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation can serve as a valuable resource for understanding how an LLM can be used as an aid in systems design and analysis.
+A shortfall was its ability to identify some of the basic colors of the diagram.  This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation,although not exhaustive can serve as a valuable resource for understanding how an LLM can be used as an aid in systems design and analysis.
 
 
 # References
@@ -233,7 +289,7 @@ A shortfall was its ability to identify some of the basic colors of the diagram.
 
 2. <a id="ref3"></a>OpenAI. 2024. "Homepage." Accessed May 14, 2024. [https://openai.com/index/hello-gpt-4o/](https://openai.com/index/hello-gpt-4o/)
 
-3. <a id="ref2"></a>Sabourin, Robert. 2023. *Charting the Course: Coming Up with Great Ideas;Just In Time*. Notion Press.
+3. <a id="ref2"></a>Sabourin, Robert. 2024. *Charting the Course: Coming Up with Great Ideas;Just In Time*. Notion Press.
 
 4. <a id="ref4"></a>OPCAT. 2023. "Homepage." Accessed May 14, 2024. [https://esml.technion.ac.il/opm/opcat-installation/](https://esml.technion.ac.il/opm/opcat-installation/)
 
