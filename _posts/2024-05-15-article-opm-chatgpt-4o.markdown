@@ -21,13 +21,13 @@ Copywrite © 2024 Mario Colina
 
 As systems engineering evolves, so does the demand for improved modeling. One such method is Object Process Methodology (OPM) [1](#ref1). OPM was created by Professor Dov Dori[^1]. It’s an elegant and powerful modeling methodology that combines both visual and textual information in one diagram, and as testers modelling our system under test is important. The intricacies of OPM are beyond the scope of this report.
 
-OpenAI [2](#ref2) just released ChatGPT-4o which extends it functionality to accept audio, image, and video. It enhances the ability to work with graphical data and could significantly improve system analysis. 
+OpenAI [2](#ref2) just released ChatGPT-4o which extends its functionality to accept audio, image, and video. It enhances the ability to work with graphical data and could significantly improve system analysis. 
 
 I decided to have a go at it by testing its image input capabilities by analyzing the Systems Diagram (SD) I made using Robert Sabourin's [^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just In Time" [3](#ref3). I modeled the system using OPM to create my Object Process Diagram (OPD). 
 
 This report explores how ChatGPT-4o treats and identifies things within OPM diagrams and demonstrates AI’s potential to empower systems engineering. This is my first initial reaction to ChatGPT-4o abilities.
 
-[^1]: Dov Dori is a Lecturer MIT System Design & Professor of Information Systems Engineering at Technion – Israel Institute of Technology Management.
+[^1]: Dov Dori is a Lecturer at MIT System Design, and a Professor of Information Systems Engineering at Technion – Israel Institute of Technology Management.
 [^2]: Robert Sabourin has over 30 years of management experience leading teams of software development professionals. He has provided extensive consultancy services, is an adjunct professor at McGill University, and is a popular speaker at software engineering conferences worldwide.
 
 # System overview
@@ -42,7 +42,7 @@ Here is the SD of the Wrap-O-Matic chocolate wrapping system generated using OPC
 
 
 
-Now, what is unique to OPM is that it has an Object Process-Language (OPL).  OPL uses structured natural language to describe the objects, processes, and their interactions within a system, making complex diagrams accessible and understandable through concise textual descriptions. The OPL sentences for the SD are as follows:
+Now, what is unique to OPM is that it has an Object Process-Language (OPL).  OPL uses structured natural language to describe objects, processes, and their interactions within a system, thus making complex systems diagrams accessible and understandable through short textual descriptions. The OPL sentences for the SD are as follows:
 
     Chocolate box set is physical.
     Chocolate box set exhibits Production Volume.
@@ -100,7 +100,7 @@ Let’s examine what it identified correctly and incorrectly according to my mod
 - States - **correct**
 - Environmental object 
     - Electrical energy – **correct**
-    - Did not identify the “Human-centered Wrapping & Boxing” process.
+    - Did not identify the “Human-centered Wrapping & Boxing” process as environmental
 -  Enablers (Agents, Instruments)
     - Agents
         - Company Stakeholder Group – **incorrect**
@@ -133,13 +133,23 @@ Now let’s have some fun and prompt it to identify the type of structural relat
 
 <img src="/assets/images/issue_1/10.png" alt="SD" width="auto">
 
-It identified the structural relation between Compony Stakeholder Group and Business Success correctly but got Chocolate Box Set and its attribute Production Volume incorrectly. 
+At the beginning of its response, it didn’t correctly classify the structural relations, the correct classifications are:
+
+    Exhibition-characterization is Type and its features
+    Generalization-specialization is Type and its subtypes
+
+And it forgot one:
+
+    Classification-instantiation is type and its realizations
+
+
+It identified the structural relation between Company Stakeholder Group and Business Success correctly but got Chocolate Box Set and its attribute Production Volume incorrectly. 
 
 **Exhibition-Characterization** relates a thing to its attribute, denoted by the symbol: 
 
 <img src="/assets/images/issue_1/11.png" alt="SD" width="200">
 
-The structural relation in this diagram is Exhibition-characterization. For example,
+The structural relation in this diagram is **Exhibition-characterization**:
 
     Company Stakeholder Group exhibits Business success. 
     Business success characterizes Company Stakeholder Group
@@ -210,20 +220,22 @@ Let’s prompt it to identify any potential test ideas
 It generated some generic high-level tests.
 
 # Conclusion 
-This initial experiment evaluated ChatGPT-4o’s ability to analyze a Systems Diagram using Object Process Methodology (OPM). It correctly identified most objects and processes , however it overlooked the 'Human-centered Wrapping & Boxing' process and struggled to identifying some structural links. 
-Despite these issues, it was capable of refining and correcting initial misinterpretations based on user feedback and is promising for iterative learning processes.
+This initial experiment evaluated ChatGPT-4o’s ability to analyze a Systems Diagram using Object Process Methodology (OPM). It correctly identified most objects and processes , however it overlooked the 'Human-centered Wrapping & Boxing' process as aa environmental process (dashed ellipse) and struggled to identify some structural links. 
 
-A shortfall was its ability to identify some of the basic colors of the diagram.  This analysis showcases the capabilities and limitations of large language models in complex system analysis, and can serve as a valuable resource for understanding how such technologies can be used in practical setting in aiding systems design and analysis.
+Despite these issues, it was capable of refining and correcting initial misinterpretations based on user feedback, and this is promising for an iterative learning process.
+
+A shortfall was its ability to identify some of the basic colors of the diagram.  This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation can serve as a valuable resource for understanding how an LLM can be used as an aid in systems design and analysis.
+
 
 # References
 
-1. <a id="ref1"></a>Dori, Dov. 2022. "Modeling Knowledge with Object-Process Methodology." PDF file. Accessed May 10, 2023. [https://dovdori.technion.ac.il/wp-content/uploads/2022/05/Modeling-Knowledge-with-Object-Process-Methodology.pdf](https://dovdori.technion.ac.il/wp-content/uploads/2022/05/Modeling-Knowledge-with-Object-Process-Methodology.pdf)
+1. <a id="ref1"></a>Dori, Dov. Model-Based Systems Engineering with OPM and SysML. 1st ed. New York: Springer, 2016. 
 
 2. <a id="ref3"></a>OpenAI. 2024. "Homepage." Accessed May 14, 2024. [https://openai.com/index/hello-gpt-4o/](https://openai.com/index/hello-gpt-4o/)
 
 3. <a id="ref2"></a>Sabourin, Robert. 2023. *Charting the Course: Coming Up with Great Ideas*. Notion Press.
 
-4. <a id="ref4"></a>OPCLOUD. 2023. "Homepage." Accessed May 14, 2024. [https://esml.technion.ac.il/opm/opcat-installation/](https://esml.technion.ac.il/opm/opcat-installation/)
+4. <a id="ref4"></a>OPCAT. 2023. "Homepage." Accessed May 14, 2024. [https://esml.technion.ac.il/opm/opcat-installation/](https://esml.technion.ac.il/opm/opcat-installation/)
 
 # Footnotes
 
