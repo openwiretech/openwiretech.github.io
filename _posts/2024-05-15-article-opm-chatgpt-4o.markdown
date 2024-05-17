@@ -229,7 +229,7 @@ A shortfall was its ability to identify some of the basic colors of the diagram.
 
 # References
 
-1. <a id="ref1"></a>Dori, Dov. Model-Based Systems Engineering with OPM and SysML. 1st ed. New York: Springer, 2016. 
+1. <a id="ref1"></a>Dori, Dov. *Model-Based Systems Engineering with OPM and SysML*. 1st ed. New York: Springer, 2016. 
 
 2. <a id="ref3"></a>OpenAI. 2024. "Homepage." Accessed May 14, 2024. [https://openai.com/index/hello-gpt-4o/](https://openai.com/index/hello-gpt-4o/)
 
