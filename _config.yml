@@ -65,17 +65,34 @@ include:
   - _pages
 
 
+## Defaults
+#defaults:
+#  # _posts
+#  class: wide
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: true
+#      read_time: true
+#      comments: # true
+#      share: true
+#      related: true
+
+
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
+      full-width: true
+      class: wide
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true  # Enable or disable by setting true or false
       share: true
       related: true
 
