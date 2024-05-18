@@ -252,19 +252,27 @@ Let’s identify the differences between the SD and OPL for failure modes that C
 **Differences Between Failure Modes from the Diagram and the OPL**:
 
 **Operator Group**
+
 Diagram: Focuses on human error, absenteeism, fatigue, and communication failures.
+
 OPL: Emphasizes training effectiveness and workload management.
 
 **Wrapping System**
+
 Diagram: Highlights mechanical failures, software glitches, and maintenance lapses.
+
 OPL: Focuses on operational reliability and the efficacy of maintenance schedules.
 
 **Electrical Energy**
+
 Diagram: Considers power outages, voltage fluctuations, and energy supply interruptions.
+
 OPL: Emphasizes power stability and energy efficiency.
 
 **Automatic Chocolate Wrapping & Boxing**
+
 Diagram: Concerns include system overload, integration failures, and quality control failures.
+
 OPL: Focuses on system integration, throughput and capacity, and error handling and recovery.
 
 **Chocolate Box Set (only from OPL)**
