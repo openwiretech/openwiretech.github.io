@@ -13,7 +13,7 @@ ISSUE NO. 1
 
 Date: 2024-05-15 16:00:00
 
-Copywrite © 2024 Mario Colina
+Copyright © 2024 Mario Colina
 
 ## An Experience Report
 # Background
