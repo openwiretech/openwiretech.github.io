@@ -25,7 +25,7 @@ OpenAI [[2]](#ref2) just released ChatGPT-4o which extends its functionality to 
 
 I decided to have a go at it by testing its image analyzing capabilities for the Systems Diagram (SD) I made using Robert Sabourin's [^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just In Time" [[3]](#ref3). I modeled the system using OPM to create my Object Process Diagram (OPD). 
 
-This report explores how ChatGPT-4o treats and identifies things within OPM diagrams and demonstrates AI’s potential to empower systems engineering. This is my first initial reaction to ChatGPT-4o abilities.
+This report explores how ChatGPT-4o treats and identifies things within OPM diagrams and demonstrates AI’s potential to empower systems engineering. This is my first reaction to ChatGPT-4o abilities.
 
 [^1]: Dov Dori is a Lecturer at MIT System Design, and a Professor of Information Systems Engineering at Technion – Israel Institute of Technology Management.
 [^2]: Robert Sabourin has over 30 years of management experience leading teams of software development professionals. He has provided extensive consultancy services, is an adjunct professor at McGill University, and is a popular speaker at software engineering conferences worldwide.
