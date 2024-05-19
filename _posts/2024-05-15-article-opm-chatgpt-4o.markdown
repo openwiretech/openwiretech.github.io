@@ -205,7 +205,7 @@ Well, there are only three colors, Blue, Green and Gold/yellow (states)
 
 Let’s prompt it to identify any potential test ideas
 
-<img src="/assets/images/issue_1/20.png" alt="SD" width="auto">
+<img src="/assets/images/issue_1/20a.png" alt="SD" width="auto">
 
 <img src="/assets/images/issue_1/21.png" alt="SD" width="auto">
 
