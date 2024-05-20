@@ -11,7 +11,8 @@ permalink: /article_post
 
 ISSUE NO. 1
 
-Date: 2024-05-15 16:00:00
+Date: 2024-05-15 16:00
+Last updated: 2024-05-20 16:00
 
 Copyright © 2024 Mario Colina
 
@@ -23,16 +24,16 @@ As systems engineering evolves, so does the demand for improved modeling in Mode
 
 OpenAI [[2]](#ref2) just released ChatGPT-4o which extends its functionality to accept audio, image, and video. It enhances the ability to work with graphical data and could significantly improve system analysis. 
 
-I decided to have a go at it by testing its image analyzing capabilities for the Systems Diagram (SD) I made using Robert Sabourin's [^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just In Time" [[3]](#ref3). I modeled the system using OPM to create my Object Process Diagram (OPD). 
+I decided to have a go at it by testing its image analyzing capabilities for the Systems Diagram (SD) I made using Robert Sabourin's [^2] Wrap-O-Matic chocolate wrapping system, which can be found in his latest book "Charting the Course: Coming Up with Great Ideas, Just in Time" [[3]](#ref3). I modeled the system using OPM to create my Object Process Diagram (OPD). 
 
-This report explores how ChatGPT-4o treats and identifies things within OPM diagrams and demonstrates AI’s potential to empower systems engineering. This is my first reaction to ChatGPT-4o abilities.
+This report, although not exhaustive, explores how ChatGPT-4o treats and identifies things within OPM diagrams and demonstrates AI’s potential to empower systems engineering. This is my **reaction** to ChatGPT-4o abilities.
 
 [^1]: Dov Dori is a Lecturer at MIT System Design, and a Professor of Information Systems Engineering at Technion – Israel Institute of Technology Management.
 [^2]: Robert Sabourin has over 30 years of management experience leading teams of software development professionals. He has provided extensive consultancy services, is an adjunct professor at McGill University, and is a popular speaker at software engineering conferences worldwide.
 
 # System overview
 
-Here is the SD of the Wrap-O-Matic chocolate wrapping system generated using OPCAT modeling CASE tool [[4]](#ref4). This is a high-level view of the overall system. The green boxes are Objects, and the blue ellipses are Process. 
+The Wrap-o-Matic handles the packaging stage in a system designed to produce boxes of chocolates. Here is the SD of the Wrap-O-Matic chocolate wrapping system generated using OPCAT modeling CASE tool [[4]](#ref4). This is a high-level view of the overall system. The green boxes are Objects, and the blue ellipses are Process. 
 
 <a href="/assets/images/issue_1/2.png" target="_blank">
     <img src="/assets/images/issue_1/2.png" alt="SD" width="auto">
@@ -42,7 +43,7 @@ Here is the SD of the Wrap-O-Matic chocolate wrapping system generated using OPC
 
 
 
-Now, what is unique to OPM is that it has an Object Process-Language (OPL).  OPL uses structured natural language to describe objects, processes, and their interactions within a system, thus making complex systems diagrams accessible and understandable through short textual descriptions. The OPL sentences for the SD are as follows:
+Now, what is unique to OPM is that it has an Object Process-Language (OPL).  OPL uses structured natural language to describe objects, processes, and their interactions within a system, thus making complex systems diagrams accessible and understandable through short textual descriptions. These were not fed into ChatGPT and are here to provide a better understanding of the model. The OPL sentences for the SD are as follows:
 
     Chocolate box set is physical.
     Chocolate box set exhibits Production Volume.
@@ -112,18 +113,20 @@ Let’s examine what it identified correctly and incorrectly according to my mod
 - Structural links
     - It identified a structural link, but not the type of link.
 - Procedural links
-    - Company Stakeholder Group (agent) - **incorrect**
+    - Company Stakeholder Group (agent) - **incorrect, not explicitly linked**
     - Operator Group (agent) - **correct**
     - Wrapping System (instrument) - **correct**
     - Electrical Energy (instrument) – **correct**
     - Human-centered Wrapping & Boxing (process) is linked to:
-        - Business Success (effect) - **incorrect**
-        - Production Volume (effect) - **incorrect**
+        - Business Success (effect) - **correct**
+        - Production Volume (effect) - **correct**
 - Automatic Chocolate Wrapping & Boxing (process) affects:
     - Business Success (affects the state to improved or current) – **correct**.
     - Production Volume (affects the state to high or low) – **correct**.
 
-Not bad for a first attempt!
+Not bad for a first attempt! 
+
+It incorrectly identified **Company Stakeholder Group** as an Agent, it was not explicitly connected by a procedural link.
 
 # Structural Links
 
@@ -142,17 +145,23 @@ And it forgot one:
 
     Classification-instantiation is type and its realizations
 
+It did define Aggregation-participation correctly as a structural link, but as well shall see, it misused this in its identification. Its symbol is:
 
-It identified the structural relation between **Company Stakeholder Group** and **Business Success** correctly but got **Chocolate Box Set** and its attribute **Production Volume** incorrectly. 
+<img src="/assets/images/issue_1/35.png" alt="SD" width="200">
 
-**Exhibition-Characterization** relates a thing to its attribute, denoted by the symbol: 
+It identified the structural relation between **Company Stakeholder Group** and **Business Success** correctly but got **Chocolate Box Set** and its attribute **Production Volume** and identified it as Aggregation-participation. 
+
+Why was it unable to correlate the same symbols as identical? A future experiment would be to feed in all 4 types of structural symbols and prompt it to identify them.
+
+The structural relation it did identify correctly was  **Exhibition-Characterization** (relates a thing to its attribute), denoted by the symbol: 
 
 <img src="/assets/images/issue_1/11.png" alt="SD" width="200">
 
-The structural relation in this diagram is **Exhibition-characterization**:
+Its OPL sentence is:
 
     Company Stakeholder Group exhibits Business success. 
-    Business success characterizes Company Stakeholder Group
+
+Specifically, Business success characterizes Company Stakeholder Group
 
 # Some Improvements
 
@@ -170,7 +179,7 @@ Let’s drill down more and see if it can identify the systems main process
 
 <img src="/assets/images/issue_1/15.png" alt="SD" width="auto">
 
-It did identify the main process correctly and provided a reasonable explanation for its rationale. 
+It did identify the main process correctly and I was satisfied with the explanation for its rationale.
 
 # Identify the Prblem Occurance or the Problem we are trying to solve
 
@@ -217,7 +226,7 @@ Let’s prompt it to identify any potential test ideas
 
 <img src="/assets/images/issue_1/25.png" alt="SD" width="auto">
 
-It generated some generic high-level tests.
+It generated generic answers and didn’t provide an gap analysis.
 
 **Using the Systems diagram to identify failure modes**
 
@@ -233,6 +242,8 @@ Failure mode tests are a good strategy, lets find out what it can come up with
 
 <img src="/assets/images/issue_1/30.png" alt="SD" width="auto">
 
+Again, It generated generic answers.
+
 
 # Improvements
 
@@ -247,7 +258,7 @@ A more accurate analysis and test idea generation would be by feeding ChatGPT th
 <img src="/assets/images/issue_1/34.png" alt="SD" width="auto">
 
 
-Let’s identify the differences between the SD and OPL for failure modes that ChatGPT provided:
+A slight improvement in its diagram analysis. Let’s summarize the differences between the SD and OPL for failure modes that ChatGPT provided:
 
 **Differences Between Failure Modes from the Diagram and the OPL**:
 
@@ -279,18 +290,18 @@ OPL: Focuses on system integration, throughput and capacity, and error handling 
 
 OPL: Adds specific tests for quality assurance and durability of the chocolate box set, which were not explicitly mentioned in the diagram-based analysis.
 
-The failure modes identified from the SD highlight operational and technical issues. In contrast, the OPL offers a broader perspective, covering aspects such as training, workload management, and detailed testing scenarios for quality assurance and durability.
-
 This is a high level-view, and one could delve deeper into failure mode scenarios. This can provide an overview to stimulate other ideas or implement better prompting. 
 
 
 
 # Conclusion 
-This initial experiment evaluated ChatGPT-4o’s ability to analyze a Systems Diagram using Object Process Methodology (OPM). It correctly identified most objects and processes , however it overlooked the 'Human-centered Wrapping & Boxing' process as aa environmental process (dashed ellipse) and struggled to identify some structural links. 
+This initial experiment evaluated ChatGPT-4o’s ability to identify the elements in a Systems Diagram using Object Process Methodology (OPM). It correctly identified most objects and processes, however it overlooked the 'Human-centered Wrapping & Boxing' process as an environmental process (dashed ellipse) and struggled to identify some structural links. 
 
-Despite these issues, it was capable of refining and correcting initial misinterpretations based on user feedback, and this is promising for an iterative learning process.
+Despite these issues, it was capable of refining and correcting initial misinterpretations based on user feedback. A shortfall was its ability to identify some of the basic colors of the diagram.  
+Where it didn’t perform well in my opinion was the test idea generation.  It didn’t provide any deep ideas, did not identify any tests that could find any gaps or flaws in the systems model. 
 
-A shortfall was its ability to identify some of the basic colors of the diagram.  This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation,although not exhaustive can serve as a valuable resource for understanding how an LLM can be used as an aid in systems design and analysis.
+This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation, although not exhaustive, can serve as a valuable resource for understanding how an LLM can potentially be used as an aid in systems design while also provide caution to the wind about its limitations in effective analysis and test idea generation.
+
 
 
 # References
