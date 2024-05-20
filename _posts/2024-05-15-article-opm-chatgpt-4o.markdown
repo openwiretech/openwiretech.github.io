@@ -137,7 +137,7 @@ Now let’s have some fun and prompt it to identify the type of structural relat
 
 <img src="/assets/images/issue_1/10.png" alt="SD" width="auto">
 
-At the beginning of its response, it didn’t correctly classify the structural relations, the correct classifications are:
+At the beginning of its response, it didn’t correctly classify some of the structural relations, the correct classifications are:
 
     Exhibition-characterization is Type and its features
     Generalization-specialization is Type and its subtypes
@@ -146,15 +146,11 @@ And it forgot one:
 
     Classification-instantiation is type and its realizations
 
-It did define **Aggregation-participation** correctly as a structural link, but as well shall see, it misused this in its identification. Its symbol is:
+It did define **Aggregation-participation** correctly as a structural link, but as well shall see, it misused this in its identification. 
 
-<img src="/assets/images/issue_1/35.png" alt="SD" width="100">
+What it got correct:
 
-It identified the structural relation between **Company Stakeholder Group** and **Business Success** correctly but got **Chocolate Box Set** and its attribute **Production Volume** and identified it as Aggregation-participation. 
-
-Why was it unable to correlate the same symbols as identical? A future experiment would be to feed in all 4 types of structural symbols and prompt it to identify them.
-
-The structural relation it did identify correctly was  **Exhibition-Characterization** (relates a thing to its attribute), denoted by the symbol: 
+It identified the structural relation between Company Stakeholder Group and its attribute Business Success correctly as **Exhibition-Characterization** (relates a thing to its attribute), denoted by the symbol: 
 
 <img src="/assets/images/issue_1/11.png" alt="SD" width="100">
 
@@ -163,6 +159,23 @@ Its OPL sentence is:
     Company Stakeholder Group exhibits Business success. 
 
 Specifically, Business success characterizes Company Stakeholder Group
+
+What it got wrong:
+
+It identified the structural relation between **Chocolate Box Set** and its attribute **Production Volume** incorrectly as **Aggregation-participation**. 
+
+Its symbol is:
+
+<img src="/assets/images/issue_1/35.png" alt="SD" width="100">
+
+Why was it unable to correlate the same symbols as identical? Both symbols do contain triangles
+
+- One is solid filled.
+
+- The other has a smaller solid filled triangle inside of a bigger triangle
+
+A future experiment would be to feed in all 4 types of structural symbols and prompt it to identify them.
+
 
 # Some Improvements
 
@@ -293,15 +306,13 @@ OPL: Adds specific tests for quality assurance and durability of the chocolate b
 
 This is a high level-view, and one could delve deeper into failure mode scenarios. This can provide an overview to stimulate other ideas or implement better prompting. 
 
-
-
 # Conclusion 
 This initial experiment evaluated ChatGPT-4o’s ability to identify the elements in a Systems Diagram using Object Process Methodology (OPM). It correctly identified most objects and processes, however it overlooked the 'Human-centered Wrapping & Boxing' process as an environmental process (dashed ellipse) and struggled to identify some structural links. 
 
 Despite these issues, it was capable of refining and correcting initial misinterpretations based on user feedback. A shortfall was its ability to identify some of the basic colors of the diagram.  
 Where it didn’t perform well in my opinion was the test idea generation.  It didn’t provide any deep ideas, did not identify any tests that could find any gaps or flaws in the systems model. 
 
-This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation, although not exhaustive, can serve as a valuable resource for understanding how an LLM can potentially be used as an aid in systems design while also provide caution to the wind about its limitations in effective analysis and test idea generation.
+This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation, although not exhaustive, can serve as a valuable resource for understanding how an LLM can potentially be used as an aid in systems design while also provide caution to the wind about its limitations in effective model symbol identification, analysis and test idea generation.
 
 
 
