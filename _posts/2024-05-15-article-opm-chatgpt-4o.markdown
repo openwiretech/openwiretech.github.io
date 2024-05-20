@@ -156,7 +156,7 @@ Why was it unable to correlate the same symbols as identical? A future experimen
 
 The structural relation it did identify correctly was  **Exhibition-Characterization** (relates a thing to its attribute), denoted by the symbol: 
 
-<img src="/assets/images/issue_1/11.png" alt="SD" width="200">
+<img src="/assets/images/issue_1/11.png" alt="SD" width="100">
 
 Its OPL sentence is:
 
