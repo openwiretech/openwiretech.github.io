@@ -148,7 +148,7 @@ And it forgot one:
 
 It did define Aggregation-participation correctly as a structural link, but as well shall see, it misused this in its identification. Its symbol is:
 
-<img src="/assets/images/issue_1/35.png" alt="SD" width="150">
+<img src="/assets/images/issue_1/35.png" alt="SD" width="100">
 
 It identified the structural relation between **Company Stakeholder Group** and **Business Success** correctly but got **Chocolate Box Set** and its attribute **Production Volume** and identified it as Aggregation-participation. 
 
