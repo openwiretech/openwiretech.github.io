@@ -146,7 +146,7 @@ And it forgot one:
 
     Classification-instantiation is type and its realizations
 
-It did define Aggregation-participation correctly as a structural link, but as well shall see, it misused this in its identification. Its symbol is:
+It did define **Aggregation-participation** correctly as a structural link, but as well shall see, it misused this in its identification. Its symbol is:
 
 <img src="/assets/images/issue_1/35.png" alt="SD" width="100">
 
