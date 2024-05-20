@@ -148,9 +148,9 @@ And it forgot one:
 
 It did define **Aggregation-participation** correctly as a structural link, but as well shall see, it misused this in its identification. 
 
-What it got correct:
+### What it got correct:
 
-It identified the structural relation between Company Stakeholder Group and its attribute Business Success correctly as **Exhibition-Characterization** (relates a thing to its attribute), denoted by the symbol: 
+It identified the structural relation between **Company Stakeholder Group** and its attribute **Business Success** correctly as **Exhibition-Characterization** (relates a thing to its attribute), denoted by the symbol: 
 
 <img src="/assets/images/issue_1/11.png" alt="SD" width="100">
 
@@ -160,7 +160,7 @@ Its OPL sentence is:
 
 Specifically, Business success characterizes Company Stakeholder Group
 
-What it got wrong:
+### What it got wrong:
 
 It identified the structural relation between **Chocolate Box Set** and its attribute **Production Volume** incorrectly as **Aggregation-participation**. 
 
