@@ -4,7 +4,7 @@ title:  "A Rant about...Memory Leaks"
 date:   2024-01-19 12:00:00 -500
 categories: [rant]
 tags: [rant, code, memory] # coma separated lower case
-#permalink: /rant_post_1
+permalink: /rant_post_1
 ---
 # Memory Leak Mayham
 
