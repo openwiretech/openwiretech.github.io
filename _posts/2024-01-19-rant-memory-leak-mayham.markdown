@@ -8,7 +8,7 @@ permalink: /rant_post_1
 ---
 # Memory Leak Mayham
 
-<img src="/assets/images/memory_leak.jpg" alt="Memory leak havoc" width="300">
+<img src="{{ site.baseurl }}/assets/images/memory_leak.jpg" alt="Memory leak havoc" width="300">
 
 RANT ISSUE NO. 1
 
