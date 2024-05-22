@@ -4,7 +4,7 @@ title: Assessing ChatGPT-4o's Effectiveness in System Diagram Analysis Using Obj
 date:   2024-05-15 16:00:00 -500
 categories: [article]
 tags: [article, opm, chatgpt, llm] # coma separated lower case
-permalink: /article_post_1
+#permalink: /article_post_1
 ---
 
 <img src="/assets/images/issue_1/superimposed.png" alt="SD" width="300">
