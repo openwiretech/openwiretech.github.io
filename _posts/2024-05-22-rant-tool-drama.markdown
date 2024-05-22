@@ -4,7 +4,7 @@ title:  "A Rant about...Tool Department Drama"
 date:   2024-05-22 10:00:00 -500
 categories: [rant]
 tags: [rant, tools, departments, sunk_cost] # coma separated lower case
-#permalink: /rant_post_2
+permalink: /rant_post_2
 ---
 # Tool Department Drama
 
