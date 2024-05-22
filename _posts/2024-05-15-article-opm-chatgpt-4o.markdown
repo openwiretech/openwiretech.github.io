@@ -2,9 +2,9 @@
 layout: post
 title: Assessing ChatGPT-4o's Effectiveness in System Diagram Analysis Using Object Process Methodology
 date:   2024-05-15 16:00:00 -500
-categories: [ai, systems, llm, image]
+categories: [article]
 tags: [article, opm, chatgpt, llm] # coma separated lower case
-permalink: /article_post
+#permalink: /article_post
 ---
 
 <img src="/assets/images/issue_1/superimposed.png" alt="SD" width="300">
@@ -322,7 +322,7 @@ This report showcases the capabilities and limitations of large language models 
 
 2. <a id="ref3"></a>OpenAI. 2024. "Homepage." Accessed May 14, 2024. [https://openai.com/index/hello-gpt-4o/](https://openai.com/index/hello-gpt-4o/)
 
-3. <a id="ref2"></a>Sabourin, Robert. 2024. *Charting the Course: Coming Up with Great Ideas;Just In Time*. Notion Press.
+3. <a id="ref2"></a>Sabourin, Robert. 2024. *Charting the Course: Coming Up with Great Ideas;Just in Time*. Notion Press.
 
 4. <a id="ref4"></a>OPCAT. 2023. "Homepage." Accessed May 14, 2024. [https://esml.technion.ac.il/opm/opcat-installation/](https://esml.technion.ac.il/opm/opcat-installation/)
 
