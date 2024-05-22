@@ -8,7 +8,7 @@ permalink: /rant_post_2
 ---
 # Tool Department Drama
 
-<img src="/assets/images/rant_2/1.png" alt="Tool Department Drama" width="300">
+<img src="{{ site.baseurl }}/assets/images/rant_2/1.png" alt="Tool Department Drama" width="300">
 
 RANT ISSUE NO. 2
 
