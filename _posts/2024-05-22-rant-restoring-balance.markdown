@@ -3,7 +3,7 @@ layout: post
 title:  "A Rant about...Restoring Balance"
 date:   2024-05-22 20:00:00 -500
 categories: [rant]
-tags: [rant,] # coma separated lower case
+tags: [rant] # coma separated lower case
 
 ---
 # Restoring Balance
