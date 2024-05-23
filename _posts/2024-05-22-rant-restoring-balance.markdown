@@ -14,7 +14,7 @@ RANT ISSUE NO. 3
 
 Date: 2024-05-22 20:00
 
-Just when did automated regression testing turn into an obsession? 
+When did automated regression testing turn into an obsession? 
 
 It's like I woke up one morning to read the headline "Automated Regression Testing is the wave of the future!". 
 
