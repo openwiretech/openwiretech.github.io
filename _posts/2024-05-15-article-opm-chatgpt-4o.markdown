@@ -174,8 +174,15 @@ Why was it unable to correlate the same symbols as identical? Both symbols do co
 
 - The other has a smaller solid filled triangle inside of a bigger triangle
 
-A future experiment would be to feed in all 4 types of structural symbols and prompt it to identify them.
+Did it infer a different structural relationship between:
 
+- **Chocolate Box Set** and its attribute **Production Volume**
+
+and
+
+- **Company Stakeholder Group** and its attribute **Business Success**? 
+
+Did the labels play a role in its identification? Was there some textual interference at play, meaning did the textual elements affect the AI’s interpretation?
 
 # Some Improvements
 
@@ -307,12 +314,12 @@ OPL: Adds specific tests for quality assurance and durability of the chocolate b
 This is a high level-view, and one could delve deeper into failure mode scenarios. This can provide an overview to stimulate other ideas or implement better prompting. 
 
 # Conclusion 
-This initial experiment evaluated ChatGPT-4o’s ability to identify the elements in a Systems Diagram using Object Process Methodology (OPM). It correctly identified most objects and processes, however it overlooked the 'Human-centered Wrapping & Boxing' process as an environmental process (dashed ellipse) and struggled to identify some structural links. 
+This initial experiment evaluated ChatGPT-4o’s ability to identify the elements in a Systems Diagram using Object Process Methodology (OPM). It correctly identified objects as objects and processes as processes apart from not identifying one process as environmental. It was inconsistent with its identification of the same graphical design (Exhibition-characterization) in two instances, underscoring a significant limitation possibly due to textual interference. 
 
-Despite these issues, it was capable of refining and correcting initial misinterpretations based on user feedback. A shortfall was its ability to identify some of the basic colors of the diagram.  
-Where it didn’t perform well in my opinion was the test idea generation.  It didn’t provide any deep ideas, did not identify any tests that could find any gaps or flaws in the systems model. 
+In my opinion, it also didn’t perform well in test idea generation.  It didn’t provide any deep ideas, did not identify any tests that could find any gaps or flaws in the systems model. However, It was capable of refining and correcting initial misinterpretations based on user feedback. A shortfall was its ability to identify some of the basic colors of the diagram.  
 
-This report showcases the capabilities and limitations of large language models in analyzing model-based systems engineering diagrams. This evaluation, although not exhaustive, can serve as a valuable resource for understanding how an LLM can potentially be used as an aid in systems design while also provide caution to the wind about its limitations in effective model symbol identification, analysis and test idea generation.
+This report showcases capabilities, inconsistencies, and limitations of large language models in analyzing model-based systems engineering diagrams. Although not exhaustive, can serve as a valuable resource for understanding how an LLM can potentially be used as an aid in systems design while also providing caution to the wind about its limitations in effective model symbol identification, analysis, and test idea generation.
+
 
 
 

@@ -38,8 +38,13 @@ github_username:  openwiretech
 # Build settings
 theme: minima
 #theme: minimal-mistakes-jekyll
+#remote_theme: benbalter/retlab
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+#  - jekyll-remote-theme
+#  - jekyll-avatar
+#  - jekyll-github-metadata
 
 # Exclude from processing.
 # The following items will not be processed, by default.
