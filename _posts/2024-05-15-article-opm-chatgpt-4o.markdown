@@ -174,15 +174,13 @@ Why was it unable to correlate the same symbols as identical? Both symbols do co
 
 - The other has a smaller solid filled triangle inside of a bigger triangle
 
-Did it infer a different structural relationship between:
+Did the labels play a role in its identification? Was there some textual interference at play, meaning did the textual elements affect the AI’s interpretation between:
 
 - **Chocolate Box Set** and its attribute **Production Volume**
 
 and
 
 - **Company Stakeholder Group** and its attribute **Business Success**? 
-
-Did the labels play a role in its identification? Was there some textual interference at play, meaning did the textual elements affect the AI’s interpretation?
 
 # Some Improvements
 
