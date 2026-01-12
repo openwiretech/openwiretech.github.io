@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-01-09-article-From-Sydney-with-Love.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-01-09-article-From-Sydney-with-Love"
+              "title": "index"
             }
           }
         ]
@@ -205,8 +205,8 @@
   },
   "active": "e51c292ec38945b3",
   "lastOpenFiles": [
-    "_posts/2024-05-15-article-opm-chatgpt-4o.md",
     "_posts/2026-01-09-article-From-Sydney-with-Love.md",
+    "_posts/2024-05-15-article-opm-chatgpt-4o.md",
     "_site/article/2026/01/09/article-From-Sydney-with-Love.html",
     "_site/article/2026/01/09",
     "_site/article/2026/01",
