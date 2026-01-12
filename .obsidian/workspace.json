@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2026-01-09-article-From-Sydney-with-Love.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-01-09-article-From-Sydney-with-Love"
             }
           }
         ]
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 491.5
   },
   "right": {
     "id": "1385ded77a2033b7",
@@ -203,8 +203,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "e51c292ec38945b3",
+  "active": "936d61f6a9f2ee94",
   "lastOpenFiles": [
+    "index.md",
     "_posts/2026-01-09-article-From-Sydney-with-Love.md",
     "_posts/2024-05-15-article-opm-chatgpt-4o.md",
     "_site/article/2026/01/09/article-From-Sydney-with-Love.html",

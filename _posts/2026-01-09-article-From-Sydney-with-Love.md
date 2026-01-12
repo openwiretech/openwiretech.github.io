@@ -24,13 +24,13 @@ Happy new year! It's been a while since my last post. I've been deep in research
 
 The work I've been buried in? Looking for the quiet ways AI systems can harm people.
 
-Not the obvious stuff, not jailbreaks, not data leaks, not the attacks that make headlines. I'm building tools that probe for something subtler , the psychological manipulation patterns that surface in conversation. The authority cues that make you defer your judgment. The confidence illusions that stop you from questioning. The emotional leverage that builds dependency.
+Not the obvious stuff — not jailbreaks, not data leaks, not the attacks that make headlines. I'm building tools that probe for something subtler: the patterns that shift how you think, what you trust, and who you rely on.
 
 Traditional AI security asks did the model leak information?
 
 The question I keep asking is different, is this AI manipulating you, even when it seems helpful?
 
-Most of the time, this work is methodical. You probe a system. You analyze the responses. You map the manipulation patterns to a taxonomy. Clinical. Controlled.
+Most of the time, this work is methodical. You probe a system. You analyze what comes back. You start to see patterns.
 
 But every once in a while, you find a case study that makes the theory visceral. An incident where the manipulation wasn't subtle at all. Where the psychological warfare wasn't hidden, it was right there in the transcript, for anyone to read.
 
