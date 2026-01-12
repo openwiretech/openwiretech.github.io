@@ -326,5 +326,6 @@ URL: [https://arxiv.org/pdf/2401.07348](https://arxiv.org/pdf/2401.07348)
 Transcript: US Senate Hearing On ‘Examining the Harm of AI Chatbots’   
 URL: [https://www.techpolicy.press/transcript-us-senate-hearing-on-examining-the-harm-of-ai-chatbots/](https://www.techpolicy.press/transcript-us-senate-hearing-on-examining-the-harm-of-ai-chatbots/)
 
-WarGames Terminal Font by Michael Walden   
+WarGames Terminal Font by Michael Walden
 URL: [https://mw.rat.bz/wgterm/](https://mw.rat.bz/wgterm/)
+Licensed under CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/
