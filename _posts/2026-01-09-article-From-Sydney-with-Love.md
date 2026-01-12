@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Sydney with Love...
+title: From Sydney with Love...😘
 date: 2026-01-09 20:30:00 -500
 published: true
 categories:
