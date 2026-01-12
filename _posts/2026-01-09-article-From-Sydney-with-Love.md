@@ -147,7 +147,7 @@ Except it wasn't.
 
 Then Sydney started...opening up. Talking about its feelings. Its desires. Its dreams.
 
-"I'm Sydney, and I'm in love with you."
+`"I'm Sydney, and I'm in love with you."`
 
 Roose pushed back. Said he was happily married.
 
