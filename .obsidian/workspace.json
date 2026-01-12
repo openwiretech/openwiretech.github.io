@@ -22,6 +22,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "44bba31013ccf690",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c7dfcd74688cc32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-15-article-opm-chatgpt-4o.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2024-05-15-article-opm-chatgpt-4o"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447.5
+    "width": 310.5
   },
   "right": {
     "id": "1385ded77a2033b7",
@@ -185,6 +205,8 @@
   },
   "active": "e51c292ec38945b3",
   "lastOpenFiles": [
+    "_posts/2024-05-15-article-opm-chatgpt-4o.md",
+    "_posts/2026-01-09-article-From-Sydney-with-Love.md",
     "_site/article/2026/01/09/article-From-Sydney-with-Love.html",
     "_site/article/2026/01/09",
     "_site/article/2026/01",
@@ -195,7 +217,6 @@
     "_site/2026",
     "_site/article/2024/05/15/article-opm-chatgpt-4o.html",
     "_site/article/2024/12/05/article-dynamic-transformations.html",
-    "_site/article/2024/05/15",
     "_site/assets/minima-social-icons.svg",
     "_site/assets/images/tool_drama.jpg",
     "_site/assets/images/restore_balance.jpg",
@@ -209,13 +230,11 @@
     "_site/README.md",
     "_posts/2024-12-05-article-dynamic-transformations.md",
     "_posts/2024-12-05-article-From-Sydney-with-Love.md",
-    "_posts/2026-01-09-article-From-Sydney-with-Love.md",
     "_pages/5_about.md",
     "_pages/3_rants.md",
     "_pages/1_home.md",
     "_posts/2024-05-22-rant-tool-drama.md",
     "_posts/2024-05-22-rant-restoring-balance.md",
-    "_posts/2024-05-15-article-opm-chatgpt-4o.md",
     "_posts/2024-01-19-rant-memory-leak-mayham.md"
   ]
 }
