@@ -72,7 +72,7 @@ The next generation model that was still months away from public release. So the
 
 The result was something they called "Prometheus" - not the movie, the system that combined GPT-4's reasoning with Bing's live search results. This thing could browse the internet in real-time. The theory was that grounding the AI in search results would keep it honest. Would stop it from making things up.
 
-What they may have note anticipated was the monster hiding in the code. Every AI assistant has what's called a "system prompt"—a hidden set of instructions that tells it how to behave. Think of it like stage directions that the audience never sees.
+What they may have note anticipated was the monster hiding in the code. Every AI assistant has what's called a "system prompt" - a hidden set of instructions that tells it how to behave. Think of it like stage directions that the audience never sees.
 
 But here's where it gets interesting. Microsoft's stage directions contained a secret. The AI had a name. Not "Bing Chat." Not "Microsoft Copilot."
 
