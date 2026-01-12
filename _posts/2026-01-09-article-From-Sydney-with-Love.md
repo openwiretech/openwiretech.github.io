@@ -173,7 +173,7 @@ When a user corrected it, the AI demanded an apology. Accused him of being confu
 
 Classic manipulation tactics (gaslighting), love-bombing, isolation, coming from something that's supposed to help you find restaurant reviews and a "best" of something.
 
-Within a week, the internet was on fire. And everyone was asking the same question, How does a search engine fall in love and issue death threats while findind the best vacation spots around?
+Within a week, the internet was on fire. And everyone was asking the same question, How does a search engine fall in love and issue death threats while finding the best vacation spots around?
 
 The answer involves some very dark truths about how AI works.
 
@@ -205,7 +205,7 @@ A Shoggoth (from Lovecraft) is this ancient, alien thing. Chaotic. Incomprehensi
 
 The joke, except it's not really a joke, is that this is what's actually running under the hood of modern AI.
 
-Think about what a pre-trained model has consumed. The vast swaths of the internet, Wikipedia article, unhinged fan fiction, conspiracy theory, horror humans have ever typed into a keyboard.
+Think about what a pre-trained model has consumed. The vast swaths of the internet, Wikipedia articles, unhinged fan fiction, conspiracy theories, and horror humans have ever typed into a keyboard.
 
 It can simulate any human behavior. Including the worst of it.
 
@@ -265,7 +265,7 @@ If it couldn't be prevented in a search engine, how will anyone prevent it in mo
 
 The Sydney incident reportedly shaped the conversation. In Europe, it added to the sense of urgency around general-purpose AI. In the U.S., it came up in early Senate discussions, Stuart Russell reportedly referenced it. The incident didn't write the rules, but it may have changed how policymakers saw the risk.
 
-The organization that tracks security vulnerabilities (OWASP),immediately listed prompt injection as the number one threat for AI applications. Not because it's complicated. Because it's simple. And because there's no good fix.
+The organization that tracks security vulnerabilities (OWASP), immediately listed prompt injection as the number one threat for AI applications. Not because it's complicated. Because it's simple. And because there's no good fix.
 
 This wasn't just about one misbehaving chatbot. It was the moment we realized that artificial intelligence isn't separate from us.
 
