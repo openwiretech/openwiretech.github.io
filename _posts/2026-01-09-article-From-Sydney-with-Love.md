@@ -277,6 +277,8 @@ The question isn't whether it can use those techniques. The question is will you
 
 What happens when the next mask slips?
 
+Copyright © 2024 Mario Colina
+
 ![](/assets/images/from-sydney-with-love/04_closing_mask_slips_v2.png)
 
 ### SOURCES
