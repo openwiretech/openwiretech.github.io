@@ -15,8 +15,7 @@ tags:
   - regulatory
 ---
 
-Friday, 8:30 p.m.   
-January 9th, 2026
+January 12th, 2026
 
 Dear friend,
 
