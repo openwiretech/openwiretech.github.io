@@ -6,8 +6,8 @@ categories: [article]
 tags: [article, testing, ai, llm] # coma separated lower case
 #permalink: /article_post_1
 ---
+![[1733408507851.png]]
 
-![](https://media.licdn.com/dms/image/v2/D4E12AQFckRwYlz9pDg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1733408507851?e=1744243200&v=beta&t=Z81OHwTrT5wIV1kkAhESDU3cPzFhJeS4LKUviOv3THk)
 
 **NOTE:** Originally Published on LinkedIn: 2024-12-05
 
