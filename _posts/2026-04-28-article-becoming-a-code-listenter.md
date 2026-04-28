@@ -7,8 +7,6 @@ categories:
 tags:
   - article
   - testing
-  - ai
-  - llm
 ---
 ![](/assets/images/issue_2/1773250056211.png)
 
