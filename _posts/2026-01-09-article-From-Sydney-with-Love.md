@@ -14,7 +14,7 @@ tags:
   - behaviour
   - regulatory
 ---
-![](/assets/images/from-sydney-with-love/[768268964091.png)
+![](/assets/images/from-sydney-with-love/768268964091.png)
 
 January 9th, 2026
 
