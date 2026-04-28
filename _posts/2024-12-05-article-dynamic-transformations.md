@@ -6,7 +6,7 @@ categories: [article]
 tags: [article, testing, ai, llm] # coma separated lower case
 #permalink: /article_post_1
 ---
-![[1733408507851.png]]
+![](/assets/images/issue_2/1733408507851.png)
 
 
 **NOTE:** Originally Published on LinkedIn: 2024-12-05
@@ -17,7 +17,6 @@ Date: 2024-12-05 16:00
 
 By Mario Colina
 
-
 _Copyright © 2024 Mario Colina_
 
 ## 1\. Introduction
@@ -27,7 +26,7 @@ Imagine deploying an AI system responsible for real-time decision-making in fiel
 One method that may help with these types of systems is Metamorphic Testing. Metamorphic Testing (MT) \[1\]\[2\] is a software testing method that helps in identifying a problem by focusing on the relationships between inputs and outputs across multiple executions of the program, rather than examining single outputs in isolation (Figure 1). The process involves using relationships and then testing that relationship by running a source test on the program to obtain an output result. Next, you transform the source test (i.e., modify variables including existing data, conditions or factors which you suspect relate to the behavior of the system under tests) to create a new transformed follow-up test. This follow-up test is executed on the program to produce a follow-up output result. The two output results are then compared against the relation known as a Metamorphic Relation (MR). The output relation is expected to hold true depending on the context or else there is a violation or inconsistency, which indicates that a potential problem has been identified with the program.
 
 
-![[1733359827531.png]]
+![](/assets/images/issue_2/1733359827531.png)
 Figure 1. Metamorphic test execution
 
 The prefix "meta," in Greek means "beyond" or "about," in this context it refers to a higher level of abstraction, focusing on examining properties or relationships. The suffix "morphic," in Greek means "morph," meaning "form" or "shape," indicates transformation, allowing an input to be changed into a different form.
@@ -50,7 +49,7 @@ In this article, I acknowledge the oracle problem as a reality ⁴ and highlight
 
 I summarize the basis of MT in Figure 2.
 
-![[1733359715886.png]]
+![](/assets/images/issue_2/1733359715886.png)
 
 Figure 2. Main concepts of metamorphic tests
 
@@ -61,7 +60,7 @@ Metamorphic testing builds and draws inspiration from these methods (Figure 2) w
 
 Identifying relations is at the core of MT, and these properties are checked between sets of inputs and corresponding sets of outputs when executing several instances of the same program. A problem is identified when the outputs violate the relation. The key attributes of a test are listed in Table 1.
 
-![[1733360110197.png]]
+![](/assets/images/issue_2/1733360110197.png)
 
 Table 1. Key attributes of a metamorphic test
 
@@ -87,7 +86,7 @@ The basic structure of a metamorphic relation consists of an MR and transformati
 
 -   Involves specific modifications applied to the input data to generate follow-up tests. Both root MRs and their respective sub-relations may involve multiple transformations to explore different scenarios.
 
-![[1733360120720.png]]
+![](/assets/images/issue_2/1733360120720.png)
 
 Figure 3. Structure of metamorphic relations
 
@@ -95,7 +94,7 @@ Figure 3. Structure of metamorphic relations
 
 One of the challenges in MT is to identify good MRs.  A balanced approach (Figure 4) can provide comprehensive coverage and ensure robustness in testing.
 
-![[1733360146696.png]]
+![](/assets/images/issue_2/1733360146696.png)
 
 Figure 4. Finding relations
 
@@ -117,7 +116,7 @@ Specification documents, user stories, etc., can provide a formal basis to help 
 
 Another way to help ease with the identification of MR is the use of Metamorphic Relation Output Patterns (MROP)⁵. These patterns encapsulate common metamorphic relations found in Web API testing, artificial intelligence, security, etc. Some output patterns are listed in Table 2.
 
-![[1733360225384.png]]
+![](/assets/images/issue_2/1733360225384.png)
 
 Table 2. Definitions of metamorphic relation patterns⁶
 
@@ -133,7 +132,7 @@ Identify the property or behavior that should remain consistent or change in a s
 
 A scenario that I have tested is the checkout process of an e-commerce application that had factors like dynamic pricing models, complex business rules and external API dependencies. Some relations that I identified are shown in Table 3  to illustrate the difference between the relations and sub-relations.
 
-![[1733360297763.png]]
+![](/assets/images/issue_2/1733360297763.png)
 
 Table 3. Root metamorphic relations and their sub-relations for shipping cost calculation
 
@@ -141,7 +140,7 @@ Table 3. Root metamorphic relations and their sub-relations for shipping cost ca
 
 Altering the source test is known as a transformation (Figure 5). A transformation of the source test generates new tests by systematically altering the source input (original) according to the MR. These new tests are known as follow-up tests.
 
-![[1733360322931.png]]
+![](/assets/images/issue_2/1733360322931.png)
 
 Figure 5. Input transformations from source tests
 
@@ -153,7 +152,7 @@ To help guide us in identifying transformations, we can pose the question:
 
 An outline I have created for the basic structure of a metamorphic test is illustrated in Table 4. For a practical application of these guidelines, see the use case described in Section 8 and 9.
 
-![[1733530363856.png]]
+![](/assets/images/issue_2/1733530363856.png)
 
 Table 4. Test creation guidelines
 
@@ -167,7 +166,7 @@ This use case is based on my experience testing IPTV systems. I have come to und
 -   **Complex Algorithms and Real-Time Bidding (RTB)** Sophisticated algorithms and real-time bidding processes determine which ads are shown based on current market conditions and user data.
 -   **Machine Learning Models** Machine learning to predict and adapt to user preferences.
 
-![[1733360408768.png]]
+![](/assets/images/issue_2/1733360408768.png)
 
 Figure 6. Dynamic ad with user skip behavior
 
@@ -199,11 +198,11 @@ Updates the user profile based on historical skip data to better match user pref
 
 As part of my practice, I have always identified relationships within the systems I have worked on, even though earlier in my career metamorphic testing was not part of my toolkit. If I were to apply MT to evaluate an ad system’s (Figure 6) ability to adapt to historical end user behavior, I would use a subtractive relation. For this use case I will illustrate one test.
 
-![[1733360451890.png]]
+![](/assets/images/issue_2/1733360451890.png)
 
 In the context of this example, a subtractive relation would imply the omission of an ad category by the users’ historical skipping of the same ad category. From this I would derive the source and follow-up tests as illustrated in Table 5.
 
-![[1733360532981.png]]
+![](/assets/images/issue_2/1733360532981.png)
 
 Table 5. Test case: Persistent omission of the same ad category
 
@@ -219,7 +218,7 @@ What is the correct answer? Do we have a well-defined oracle? The validation pro
 
 **Semantic similarity test idea**
 
-![[1733360678267.png]]
+![](/assets/images/issue_2/1733360678267.png)
 
 Let’s use ChatGPT⁷ as an example:
 
@@ -277,19 +276,19 @@ Because both outputs from the LLM are long, complex and not identical, a possibl
 
 Figure 7 illustrates a strategy that can be used as a basis for automation to assess correctness for complex LLM responses.
 
-![[1733360932928.png]]
+![](/assets/images/issue_2/1733360932928.png)
 
 Figure 7. Strategy to assess correctness for complex LLM responses
 
 The following table (Table 6) provides more details on validation checks for semantic similarity tests.⁸
 
-![[1733361034190.png]]
+![](/assets/images/issue_2/1733361034190.png)
 
 Table 6. Validation checks
 
 Now, all this can be tedious when we have a variety of prompts to test against many relations. Most of this process can be automated and will support human cognitive verification in terms of comprehension and context of outputs. Tool assisted verification can help us by devising robust checks that would alert us to a problem that can be further investigated. A high-level automation workflow is shown in Figure 8.
 
-![[1733361056571.png]]
+![](/assets/images/issue_2/1733361056571.png)
 
 Figure 8. Automation workflow for complex LLM
 
@@ -297,7 +296,7 @@ Figure 8. Automation workflow for complex LLM
 
 Large language models do pose testing challenges that require human cognition to interpret the results. However, that doesn’t mean a portion of the testing can’t be automated to aid in identifying problems. Various tools can help streamline the process and can be utilized to automate metamorphic testing for large language models. Table 7 provides an overview of the types of tools available for automating metamorphic testing in LLMs.  This is not a complete list but more of a starting point as there are various strategies that can be implemented.
 
-![[1733361098045.png]]
+![](/assets/images/issue_2/1733361098045.png)
 
 Table 7. Categories of tools for implementing metamorphic testing in LLMs
 
