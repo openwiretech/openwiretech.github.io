@@ -8,7 +8,7 @@ tags:
   - article
   - testing
 ---
-![](/assets/images/issue_2/1773250056211.png)
+![](/assets/images/becoming-a-code-listener/1773250056211.png)
 
 
 **NOTE:** Originally Published on LinkedIn: March 11, 2026
