@@ -7,3 +7,5 @@ main:
     url: /article
   - title: About
     url: /about
+  - title: YouTube
+    url: https://www.youtube.com/@OpenWire-Tech
