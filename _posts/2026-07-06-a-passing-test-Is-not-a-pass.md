@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A Passing Test Is Not a Pass"
-date: 2026-04-28 12:00:00 -500
+title: A Passing Test Is Not a Pass
+date: 2026-07-06 12:00:00 -500
 categories:
   - article
 tags:
